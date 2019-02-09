@@ -1,0 +1,6 @@
+strObj =byteObj.decode(encoding='utf-8')
+
+ss = s.decode(encoding='utf-8')
+jj = json.loads(ss) # jj==dict
+
+jo = json.dumps(jj, indent=2)
