@@ -1,0 +1,6 @@
+print("This is run file")
+data = "Hello world"
+print(data)
+import time
+## 
+print(time.time())
